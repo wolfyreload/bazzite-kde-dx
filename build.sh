@@ -13,7 +13,8 @@ set -ouex pipefail
 dnf5 install -y code \
         qdirstat \
         gparted \
-        nemo
+        nemo \
+        ghostty
 
 # Use a COPR Example:
 #
