@@ -11,6 +11,7 @@ I use this image for lite coding and it has a few things that I like and use for
 - **qdirstat** - Very useful space monitoring tool
 - **nemo** - Prefer this to gnome-files
 - **ghostty** - Modern terminal emulator
+- **docker** - Most guides use docker and not podman
 
 # Rebasing to this image
 

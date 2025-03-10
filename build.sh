@@ -14,7 +14,8 @@ dnf5 install -y code \
         qdirstat \
         gparted \
         nemo \
-        ghostty
+        ghostty \
+        docker
 
 # Use a COPR Example:
 #
@@ -26,3 +27,4 @@ dnf5 install -y code \
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl enable docker.socket
