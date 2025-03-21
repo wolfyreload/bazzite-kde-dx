@@ -2,7 +2,7 @@
 
 This is my own custom Universal Blue image, that is based off of the bazzite-gnome-nvidia:testing image. I have customised the <https://github.com/ublue-os/image-template> template to build this image.
 
-I use this image for lite coding and it has a few things that I like and use for development in my free time.
+I use this image for some coding and for trying out software that doesn't work properly as flatpaks/appimages.
 
 # Custom software
 
@@ -18,5 +18,5 @@ I use this image for lite coding and it has a few things that I like and use for
 Feel free to use this image if you wish, but I will not be providing support for this image
 
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/wolfyreload/bazzite-wolfy:stable
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/wolfyreload/bazzite-wolfy:latest
 ```
