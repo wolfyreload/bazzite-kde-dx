@@ -14,7 +14,6 @@ dnf5 install -y code \
         qdirstat \
         gparted \
         nemo \
-        ghostty \
         docker
 
 # Use a COPR Example:
