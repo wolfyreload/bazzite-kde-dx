@@ -10,7 +10,6 @@ I use this image for some coding and for trying out software that doesn't work p
 - **gparted** - This lightweight partition editor is my preference over the KDE alternative.
 - **qdirstat** - Very useful space monitoring tool
 - **nemo** - Prefer this to gnome-files
-- **ghostty** - Modern terminal emulator
 - **docker** - Most guides use docker and not podman
 
 # Rebasing to this image
