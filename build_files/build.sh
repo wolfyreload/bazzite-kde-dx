@@ -13,8 +13,8 @@ set -ouex pipefail
 dnf5 install -y code \
         qdirstat \
         gparted \
-        nemo \
-        docker
+        dolphin \
+        docker \
 
 # Use a COPR Example:
 #
