@@ -14,7 +14,8 @@ dnf5 install -y code \
         qdirstat \
         gparted \
         dolphin \
-        docker \
+        ark \
+        docker
 
 # Use a COPR Example:
 #
