@@ -15,6 +15,7 @@ dnf5 install -y code \
         gparted \
         dolphin \
         ark \
+        kde-cli-tools \
         docker
 
 # Use a COPR Example:
