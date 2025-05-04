@@ -16,7 +16,8 @@ dnf5 install -y code \
         dolphin \
         ark \
         kde-cli-tools \
-        docker
+        docker \
+        faugus-launcher
 
 # Use a COPR Example:
 #
