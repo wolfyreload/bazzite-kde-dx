@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ouex pipefail
+# set -ouex pipefail
 
 ### Install packages
 
@@ -10,14 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y code \
-        qdirstat \
-        gparted \
-        dolphin \
-        ark \
-        kde-cli-tools \
-        docker \
-        faugus-launcher
+# dnf5 install -y tmux 
 
 # Use a COPR Example:
 #
@@ -27,6 +20,18 @@ dnf5 install -y code \
 # dnf5 -y copr disable ublue-os/staging
 
 #### Example for enabling a System Unit File
+
+# systemctl enable podman.socket
+
+set -ouex pipefail
+dnf5 install -y code \
+        qdirstat \
+        gparted \
+        dolphin \
+        ark \
+        kde-cli-tools \
+        docker \
+        faugus-launcher
 
 systemctl enable podman.socket
 systemctl enable docker.socket
