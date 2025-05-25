@@ -28,11 +28,7 @@ set -ouex pipefail
 dnf5 install -y code \
         qdirstat \
         gparted \
-        dolphin \
-        ark \
-        kde-cli-tools \
-        docker \
-        faugus-launcher
-
+        docker 
+        
 systemctl enable podman.socket
 systemctl enable docker.socket

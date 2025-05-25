@@ -32,7 +32,7 @@
 FROM scratch AS ctx
 COPY build_files /
 
-FROM ghcr.io/ublue-os/bazzite-gnome-nvidia:testing
+FROM ghcr.io/ublue-os/bazzite-nvidia:testing
 
 COPY system_files /
 RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
