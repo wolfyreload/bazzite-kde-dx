@@ -8,7 +8,6 @@ I use this image for some coding and for trying out software that doesn't work p
 
 - **Visual Studio Code** - While both flatpak and rpm-ostree options are available, the rpm-ostree version offers better integration with the system.
 - **gparted** - This lightweight partition editor is my preference over the KDE alternative.
-- **qdirstat** - Very useful space monitoring tool
 - **docker** - Most guides use docker and not podman
 
 # Rebasing to this image
